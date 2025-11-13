@@ -10,7 +10,7 @@ export default function middleware(req) {
 </html>`,
     {
       status: 415,
-      headers: { "Content-Type": "text/html" }
+      headers: { "Content-Type": "text/text" }
     }
   );
 }
